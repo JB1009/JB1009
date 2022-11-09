@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DnB_code manager</title>
+    <link rel="stylesheet" href="host.css">
+</head>
+
+<body>
+    <form action="process/index" method="get">
+    <article id="dm_wrap">
+        <div class="main_head">
+            <h1 class="logo">
+                <a href="main.html" class="inbox">
+                    <img src="../public/img/logo1.png" alt="DnB_code, 디엔비코드, 웹 프로덕션 전문">
+                </a>
+            </h1>
+            <div class="main_title">
+                <h2>디엔비코드</h2>
+                <p>Notice</p>
+            </div>
+            <h1>관리자 페이지</h1>
+        </div>
+        <div class="section">
+            <div class="content">
+                <!-- 게시판 목록 예시 -->
+                <div id="board_mask">
+                    <div id="board_wrap">
+                        <div class="btitle">견적 게시판</div>
+                        <div class="board_list_wrap">
+                            <ul id="board_list">
+                                <li class="board_title bli">
+                                    <div class="num">번호</div>
+                                    <div class="writer">작성자</div>
+                                    <div class="phoneNum">연락처</div>
+                                    <div class="email">이메일</div>
+                                    <div class="order">문의사항</div>
+                                </li>
+                                <li class="board_cont bli">
+                                    <div id="num1" class="num"></div>
+                                    <div id="writer1" class="writer"></div>
+                                    <div id="phoneNum1" class="phoneNum"></div>
+                                    <div id="email1" class="email"></div>
+                                    <div id="order1" class="order"></div>
+                                </li>
+                                <li class="board_cont bli">
+                                    <div id="num2" class="num"></div>
+                                    <div id="writer2" class="writer"></div>
+                                    <div id="phoneNum2" class="phoneNum"></div>
+                                    <div id="email2" class="email"></div>
+                                    <div id="order2" class="order"></div>
+                                </li>
+                                <li class="board_cont bli">
+                                    <div id="num3" class="num"></div>
+                                    <div id="writer3" class="writer"></div>
+                                    <div id="phoneNum3" class="phoneNum"></div>
+                                    <div id="email3" class="email"></div>
+                                    <div id="order3" class="order"></div>
+                                </li>
+                                <li class="board_cont bli">
+                                    <div id="num4" class="num"></div>
+                                    <div id="writer4" class="writer"></div>
+                                    <div id="phoneNum4" class="phoneNum"></div>
+                                    <div id="email4" class="email"></div>
+                                    <div id="order4" class="order"></div>
+                                </li>
+                                <li class="board_cont bli">
+                                    <div id="num5" class="num"></div>
+                                    <div id="writer5" class="writer"></div>
+                                    <div id="phoneNum5" class="phoneNum"></div>
+                                    <div id="email5" class="email"></div>
+                                    <div id="order5" class="order"></div>
+                                </li>
+                                <li class="board_cont bli">
+                                    <div id="num6" class="num"></div>
+                                    <div id="writer6" class="writer"></div>
+                                    <div id="phoneNum6" class="phoneNum"></div>
+                                    <div id="email6" class="email"></div>
+                                    <div id="order6" class="order"></div>
+                                </li>
+                                <li class="board_cont bli">
+                                    <div id="num7" class="num"></div>
+                                    <div id="writer7" class="writer"></div>
+                                    <div id="phoneNum7" class="phoneNum"></div>
+                                    <div id="email7" class="email"></div>
+                                    <div id="order7" class="order"></div>
+                                </li>
+                                <li class="board_cont bli">
+                                    <div id="num8" class="num"></div>
+                                    <div id="writer8" class="writer"></div>
+                                    <div id="phoneNum8" class="phoneNum"></div>
+                                    <div id="email8" class="email"></div>
+                                    <div id="order8" class="order"></div>
+                                </li>
+                           
+
+                            </ul>
+                        </div>
+                        <div class="board_page">
+                            <ul id="page_num">
+                                <li class="pnum"><a href="">[이전]</a></li>
+                                <li class="pnum"><a href=""><b>1</b></li>
+                                <li class="pnum"><a href="">2</a></li>
+                                <li class="pnum"><a href="">3</a></li>
+                                <li class="pnum"><a href="">4</a></li>
+                                <li class="pnum"><a href="">5</a></li>
+                                <li class="pnum"><a href="">[다음]</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- 게시판 끝 -->
+            </div>
+        </div>
+    </article>
+    <!-- footer -->
+    <footer id="footwrap">
+        <div id="foot">
+            <address>
+                <strong>디엔비코드</strong>
+                <span>대전광역시 중구 중앙로121번길 20 방산빌딩 2층 |</span>
+                <span>TEL.042) 2383-9817 |</span>
+                <span>E-MAIL.dnbcode@naver.com |</span>
+                <span>사업자번호 : 777-77-77777</span>
+            </address>
+            <p class="copyright">Copyrightⓒ 2022 dnbcode All Rights Reserved</p>
+        </div>
+    </footer>
+</form>
+</body>
+<script
+    src="https://code.jquery.com/jquery-3.6.1.js"
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"
+  ></script>
+
+  <script>
+  
+    // function ipt() {
+    //   document.getElementById('res').innerHTML =
+    //     document.getElementById('ipt').value;
+    // }
+    // var name = $('#ipt').val();
+    // console.log(name);
+
+    const API_KEY = '769e2824';
+
+    //영화 사이트 조회하기
+    // var userName = "userName";
+    initMovie();
+    function initMovie() {
+      $.ajax({
+        url:
+          'http://localhost:4000/api/user',
+        type: 'get',
+        dataType: 'json',
+        success: function (response) {
+          console.log(response);
+        //   document.getElementById("writer1").innerHTML = (response[0].userName);
+        //   document.getElementById("phoneNum1").innerHTML = (response[0].userPhone);
+        //   document.getElementById("email1").innerHTML = (response[0].userEmail);
+        //   document.getElementById("order1").innerHTML = (response[0].userOrder);
+        //   document.getElementById("writer2").innerHTML = (response[1].userName);
+        //   document.getElementById("phoneNum2").innerHTML = (response[1].userPhone);
+        //   document.getElementById("email2").innerHTML = (response[1].userEmail);
+        //   document.getElementById("order2").innerHTML = (response[1].userOrder);
+        //   document.getElementById("writer3").innerHTML = (response[2].userName);
+        //   document.getElementById("phoneNum3").innerHTML = (response[2].userPhone);
+        //   document.getElementById("email3").innerHTML = (response[2].userEmail);
+        //   document.getElementById("order3").innerHTML = (response[2].userOrder);
+            for(var i=0;i<8;i++){
+                console.log(response[i].userName)
+                document.getElementById("writer"+(i+1)).innerHTML = response[i].userName;
+                document.getElementById("phoneNum"+(i+1)).innerHTML = response[i].userPhone;
+                document.getElementById("email"+(i+1)).innerHTML = response[i].userEmail;
+                document.getElementById("order"+(i+1)).innerHTML = response[i].userOrder;
+                document.getElementById("num"+(i+1)).innerHTML = i+1;
+            }
+          // for (var i = 0; i <5; i++) {
+
+            // $('#userName').append(response);
+
+          // }
+        },
+      });
+    }
+    </script>
+</html>

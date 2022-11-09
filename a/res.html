@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="userName">asd</div>
+  <div id="userPhone"></div>
+  <div id="userEmail"></div>
+  <div id="userOrder"></div>
+  <button id="bt">확인</button>
+</body>
+<script
+    src="https://code.jquery.com/jquery-3.6.1.js"
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"
+  ></script>
+
+  <script>
+  
+    // function ipt() {
+    //   document.getElementById('res').innerHTML =
+    //     document.getElementById('ipt').value;
+    // }
+    // var name = $('#ipt').val();
+    // console.log(name);
+
+    const API_KEY = '769e2824';
+
+    //영화 사이트 조회하기
+    // var userName = "userName";
+    initMovie();
+    function initMovie() {
+      $.ajax({
+        url:
+          'http://localhost:4000/api/user',
+        type: 'get',
+        dataType: 'json',
+        success: function (response) {
+          console.log(response);
+          document.getElementById("userName").innerHTML = (response[2].userName);
+          // for (var i = 0; i <5; i++) {
+
+            // $('#userName').append(response);
+
+          // }
+        },
+      });
+    }
+    </script>
+</html>

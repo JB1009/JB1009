@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:495057,100:212529&height=250&text=Yun%20Jong%20Chan&fontColor=ffbb00&fontAlign=65&fontAlignY=35&desc=JB1009&descSize=30&descAlign=85)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:495057,100:212529&height=250&text=Lee%20Jong%20Bin&fontColor=ffbb00&fontAlign=65&fontAlignY=35&desc=JB1009&descSize=30&descAlign=85)
 
 # Studying Skills
 
@@ -13,7 +13,7 @@
 <img src="https://img.shields.io/badge/Unity-aaaaaa?style=flat-square&logo=unity&logoColor=black"/></a>
 
 <!--
-**Tanmak2/Tanmak2** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**JB1009/JB1009** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 

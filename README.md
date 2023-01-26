@@ -1,5 +1,3 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:495057,100:212529&height=250&text=Lee%20Jong%20Bin&fontColor=ffbb00&fontAlign=65&fontAlignY=35&desc=JB1009&descSize=30&descAlign=85)
-
 # Studying Skills
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/></a>

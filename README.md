@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=spring&logoColor=white"/></a><br>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/python-232F3E?style=flat-square&logo=python&logoColor=black"/></a>
+<img src="https://img.shields.io/badge/python-008299?style=flat-square&logo=python&logoColor=white"/></a>
 
 
 <!--
